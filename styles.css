@@ -1,0 +1,116 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+header {
+  background: #fff;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+header nav {
+  float: right;
+}
+
+header nav a {
+  margin-left: 1rem;
+  color: #666;
+  text-decoration: none;
+}
+
+.hero {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero em {
+  color: #1abc9c;
+}
+
+.hero p {
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background: #1abc9c;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.problems, .vision, .mission, .waitlist {
+  background: white;
+  padding: 3rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.problems ul {
+  margin: 1rem 0;
+  padding-left: 1.2rem;
+}
+
+.waitlist form {
+  margin-top: 1.5rem;
+}
+
+.waitlist input {
+  padding: 0.75rem;
+  width: 60%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.waitlist button {
+  padding: 0.75rem 1rem;
+  margin-left: 1rem;
+  background: #1abc9c;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+footer .socials a {
+  color: #1abc9c;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
